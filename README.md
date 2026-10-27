@@ -36,3 +36,34 @@ This project demonstrates the implementation of a modern, responsive UI componen
 ├── tailwind.config.js    # Tailwind framework configuration
 ├── package.json          # Project dependencies and build scripts
 └── README.md             # Project documentation
+
+---
+
+## Getting Started
+
+### Quick View
+To view the component without compiling styles:
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/gsreecharan/newsletter-tailwind-component.git](https://github.com/gsreecharan/newsletter-tailwind-component.git)
+   cd newsletter-tailwind-component
+   ```
+2. Open `index.html` directly in any web browser.
+
+### Development Setup (Tailwind CLI)
+To modify styles and rebuild the CSS:
+1. Ensure Node.js (v16 or higher) is installed.
+2. Install project dependencies:
+   ```bash
+   npm install
+   ```
+3. Watch and compile changes:
+   ```bash
+   npx tailwindcss -i ./style.css -o ./output.css --watch
+   ```
+
+---
+
+## Author
+
+- **G. Sree Charan** — [GitHub](https://github.com/gsreecharan)
